@@ -1,11 +1,12 @@
 import Pedidos from './Pedidos'
+import Cartao from './Cartao'
 const App = () => {
   return (
     <div className="container border mt-2 ">
       <div className="row">
 
         <div className="col-lg-6 col-xxl-3">
-
+          
           <Pedidos
             data={new Date().toLocaleDateString()}
             titulo="SSD"
