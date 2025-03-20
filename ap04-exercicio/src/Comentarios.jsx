@@ -8,6 +8,9 @@ const Comentarios = (props) => {
             </div>
         <div className="border flex-grow-1 py-3 ms-3 d-flex flex-column">
           <div className="div flex-grow-1">
+            <h2>
+            {props.nome}
+            </h2>
             {props.texto}
           </div>
           <div className="text-muted mt-auto">
