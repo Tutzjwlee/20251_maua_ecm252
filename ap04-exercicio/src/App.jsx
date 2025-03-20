@@ -15,7 +15,7 @@ const App = () => {
                 image={image}
                 nome='Arthur'
                 texto='Um profissional multifacetado, cuja trajetória é marcada por uma incansável busca pelo conhecimento, inovação e excelência. Nascido e criado em São Paulo, desde jovem demonstrou uma curiosidade insaciável pelo funcionamento das coisas ao seu redor, desmontando brinquedos para entender seus mecanismos e programando pequenas rotinas no computador de seu pai aos 10 anos de idade. Essa inquietação intelectual logo se transformou em uma paixão pela tecnologia, levando-o a se aprofundar nos campos da programação, engenharia de software e inteligência artificial.'
-                time='12:00'
+                time={new Date().toLocaleTimeString()}
               />
             </Cartao>
             <Cartao
@@ -24,7 +24,7 @@ const App = () => {
                 image={image}
                 nome='Arthur'
                 texto='Um profissional multifacetado, cuja trajetória é marcada por uma incansável busca pelo conhecimento, inovação e excelência. Nascido e criado em São Paulo, desde jovem demonstrou uma curiosidade insaciável pelo funcionamento das coisas ao seu redor, desmontando brinquedos para entender seus mecanismos e programando pequenas rotinas no computador de seu pai aos 10 anos de idade. Essa inquietação intelectual logo se transformou em uma paixão pela tecnologia, levando-o a se aprofundar nos campos da programação, engenharia de software e inteligência artificial.'
-                time='12:00'
+                time={new Date().toLocaleTimeString()}
               />
 
             </Cartao>
@@ -34,7 +34,7 @@ const App = () => {
                 image={image}
                 nome='Arthur'
                 texto='Um profissional multifacetado, cuja trajetória é marcada por uma incansável busca pelo conhecimento, inovação e excelência. Nascido e criado em São Paulo, desde jovem demonstrou uma curiosidade insaciável pelo funcionamento das coisas ao seu redor, desmontando brinquedos para entender seus mecanismos e programando pequenas rotinas no computador de seu pai aos 10 anos de idade. Essa inquietação intelectual logo se transformou em uma paixão pela tecnologia, levando-o a se aprofundar nos campos da programação, engenharia de software e inteligência artificial.'
-                time='12:00'
+                time={new Date().toLocaleTimeString()}
               />
 
             </Cartao>
