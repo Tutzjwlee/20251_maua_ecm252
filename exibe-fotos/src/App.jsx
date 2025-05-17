@@ -23,7 +23,9 @@ export default class App extends React.Component {
   onBuscaRealizada = (termo) => {
     pexelsClient.get('/search', {
       params: {
-        query: termo
+        query: termo,
+        per_page: 15
+      
       }
     }).then(result => this.setState({ photos: result.data.photos }))
   }
